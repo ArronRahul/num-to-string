@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}
+.main input,button{
+    width: 300px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    outline: none;
+    border: none;
+    margin: 5px;
+    font-size: 16px;
+    padding: 10px;
+}
+.output{
+    width: 300px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 16px;
+    padding: 10px;
+}
